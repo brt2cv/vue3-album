@@ -27,11 +27,13 @@ const count = ref(0)
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
-  <el-button type="primary">查询</el-button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+  <div>
+    <el-button type="primary">Element按钮</el-button>
+  </div>
 </template>
 
 <style scoped>
