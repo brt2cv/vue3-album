@@ -4,6 +4,10 @@ const router = new createRouter({
 	history: createWebHashHistory(),
 	routes: [
 		// { path:'/', redirect:'/home' },
+        {
+            path:"/",
+            component:() => import("../components/Album.vue")
+        },
 		{
 			path:'/home',
 			component:() => import('../components/Home.vue')

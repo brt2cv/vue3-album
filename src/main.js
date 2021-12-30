@@ -8,6 +8,9 @@ import 'element-plus/dist/index.css'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 
+// import axios from 'axios'
+// app.config.globalProperties.$axios = axios
+
 createApp(App)
 .use(ElementPlus, {size: 'small'})
 .use(Vant)
