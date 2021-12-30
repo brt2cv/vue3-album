@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import requests from "../util/http"
+import requests from "@/util/http"
 
 const onClick = () => {
     console.log("Hello")
